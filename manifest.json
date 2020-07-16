@@ -1,0 +1,34 @@
+{
+  "name": "Betwitched (Devel)",
+  "version": "1.0.1",
+  "description": "Betwitched will watch your twitch tabs and switch off streams for certain usernames.",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "permissions": [
+    "declarativeContent",
+    "activeTab",
+    "storage",
+    "tabs",
+    "webNavigation"
+  ],
+  "page_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/get_started16.png",
+      "32": "images/get_started32.png",
+      "48": "images/get_started48.png",
+      "128": "images/get_started128.png"
+    }
+  },
+  "icons": {
+    "16": "images/get_started16.png",
+    "32": "images/get_started32.png",
+    "48": "images/get_started48.png",
+    "128": "images/get_started128.png"
+  },
+  "options_page": "popup.html",
+  "web_accessible_resources": ["streamers.json"],
+  "manifest_version": 2
+}
