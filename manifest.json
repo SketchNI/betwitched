@@ -1,0 +1,29 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "background.js" ]
+   },
+   "description": "Betwitched will watch your twitch tabs and switch off streams for certain usernames.",
+   "icons": {
+      "128": "images/get_started128.png",
+      "16": "images/get_started16.png",
+      "32": "images/get_started32.png",
+      "48": "images/get_started48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAkqL2mLb3qxA3UsqWS5GlvpH3Bb/t0kRQkE/0YrUBdw0r4RTYHkPy4KJFlMjg0MOsozPBuG8dYtIL8QtjIWWQ/COJ4h17L1C6SQl3unOt7FfoVTuNVHN5caGXXrACJUH69onHMY85bRm9W/JKOUqKUFjCFLJxJ1qgWYnzP/sufmK+4ut6h29LNVqOv7NzC6BjR2XGFK2/gn//1TMdQWEKHwAR38Nx+FRWNXSL9OYYemxDHl/bM9xttdj+/SYNS+iCz6LzGbiqdVYFQ6e3IFt0B06mlFvQwdRdc0CpXxPLS6xhuoNzPjgYlkHATkwt7rHDY4LC/ONz1fzbfH60LMFdVQIDAQAB",
+   "manifest_version": 2,
+   "name": "Betwitched",
+   "options_page": "popup.html",
+   "page_action": {
+      "default_icon": {
+         "128": "images/get_started128.png",
+         "16": "images/get_started16.png",
+         "32": "images/get_started32.png",
+         "48": "images/get_started48.png"
+      },
+      "default_popup": "popup.html"
+   },
+   "permissions": [ "declarativeContent", "storage", "tabs", "webNavigation" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.1"
+}
