@@ -1,12 +1,17 @@
 {
   "name": "betwitched",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "Betwitched will watch your twitch tabs and switch off streams for certain usernames.",
   "main": "background.js",
   "scripts": {
+    "build": "",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "SketchNI <sketch@sketchni.uk>",
   "license": "MIT",
-  "dependencies": {}
+  "devDependencies": {
+    "postcss": "^8.4.16",
+    "tailwindcss": "^3.1.8",
+    "vue": "^3.2.36"
+  }
 }
